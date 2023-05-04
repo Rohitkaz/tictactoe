@@ -1,0 +1,92 @@
+
+#first{
+    color: aqua;
+}
+#box {
+
+
+ width:200 px;
+ height:400px;
+ 
+ margin-left: 350px;
+ margin-right: 350px;
+ border-radius: 10px;
+
+ background-image: url(./dwd.jpeg);
+}
+#start
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20.5px;
+    font-weight: bolder;
+    color: cyan;
+}
+#inner
+{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20.5px;
+    font-weight: bolder;
+    color: cyan;
+width:80px;
+height:80px;
+
+    
+ position:absolute;
+ top:40%;
+ left:47%;
+background-image: url(./dwd.jpeg);
+ 
+}
+#button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(0, 255, 149);
+    background-image: url(./dwd.jpeg);
+    
+    
+}
+.player{
+    border: solid black 2px;
+    width :200px;
+    margin: 10px;
+    padding: 5px;font-weight: bold ;
+
+}
+#plbox{
+    display: flex;
+    color: red;
+
+justify-content: space-evenly;
+
+}
+#text{
+    font-size: 20px;
+     font-family:  Arial, Helvetica, sans-serif;
+      margin-bottom: 10px;
+}
+#mainbox{
+    display:none;
+    width:740px;
+    height:370px;
+    margin-left:300px ;
+    padding-left: 100px;
+    padding-top: 50px;
+    
+}
+.innerbox{
+    display: flex;
+    
+
+
+}
+.box{
+    
+    border: solid black 1px;
+    width:200px;
+    height:100px;
+    
+    
+    
+}
