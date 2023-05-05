@@ -90,3 +90,18 @@ justify-content: space-evenly;
     
     
 }
+@media (width<500px)
+{
+    #plbox
+    {
+        display: block;
+        margin-left: 40px;
+        
+     
+    }
+    #mainbox{
+        width:500px;
+        margin-right: 1800px;
+        height: 800px;
+    }
+}
