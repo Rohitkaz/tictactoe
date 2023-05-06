@@ -123,8 +123,8 @@ if( (arr[1]+arr[4]+arr[7]==15)||(arr[0]+arr[1]+arr[2])==15 || (arr[0]+arr[3]+arr
   var object1=document.getElementById("main");
   var styles={
     "background-image":"url(./giphy.gif)",
-    "background-repeat":"no-repeat",
-    "background-size":"cover"
+    
+
     
     
   };
