@@ -99,18 +99,10 @@ justify-content: space-evenly;
         
      
     }
-    #mainbox{
-        width:500px;
-        margin-left:0px;
-        
-        height: 800px;
-    }
     
-
+     
+     
     #main{
         background-repeat: no-repeat;
-        background-size: cover;
-        
-       
     }
 }
