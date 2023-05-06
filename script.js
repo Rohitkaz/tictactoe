@@ -29,6 +29,7 @@ function play()
     Object.assign(obj.style,styles);
 }
 }
+
    var stop=0;
 var arr=new Array(9);
 
@@ -116,7 +117,7 @@ var won=0;
 
 function checkwin()
 {
-if( (arr[1]+arr[4]+arr[7]==15)||(arr[0]+arr[1]+arr[2])==15 || (arr[0]+arr[3]+arr[6]==15) || (arr[0]+arr[4]+arr[8]==15) || (arr[2]+arr[4]+arr[6]==15) || (arr[2]+arr[5]+arr[8]==15) || (arr[3]+arr[4]+arr[5]==15) || (arr[6]+arr[7]+arr[8]==15))
+if( (won==0) && ((arr[1]+arr[4]+arr[7]==15)||(arr[0]+arr[1]+arr[2])==15 || (arr[0]+arr[3]+arr[6]==15) || (arr[0]+arr[4]+arr[8]==15) || (arr[2]+arr[4]+arr[6]==15) || (arr[2]+arr[5]+arr[8]==15) || (arr[3]+arr[4]+arr[5]==15) || (arr[6]+arr[7]+arr[8]==15)))
 {
     document.getElementById("topbox").innerHTML=player1+" "+"won";
   stop=1;
@@ -145,7 +146,7 @@ if( (arr[1]+arr[4]+arr[7]==15)||(arr[0]+arr[1]+arr[2])==15 || (arr[0]+arr[3]+arr
     document.body.appendChild(btn);
     btn.addEventListener('click',start);
 }
- if( (arr[1]+arr[4]+arr[7]==0)||(arr[0]+arr[1]+arr[2])==0 || (arr[0]+arr[3]+arr[6]==0) || (arr[0]+arr[4]+arr[8]==0) || (arr[2]+arr[4]+arr[6]==0) || (arr[2]+arr[5]+arr[8]==0) || (arr[3]+arr[4]+arr[5]==0) || (arr[6]+arr[7]+arr[8]==0))
+  else if( (won==0) &&  ((arr[1]+arr[4]+arr[7]==0)||(arr[0]+arr[1]+arr[2])==0 || (arr[0]+arr[3]+arr[6]==0) || (arr[0]+arr[4]+arr[8]==0) || (arr[2]+arr[4]+arr[6]==0) || (arr[2]+arr[5]+arr[8]==0) || (arr[3]+arr[4]+arr[5]==0) || (arr[6]+arr[7]+arr[8]==0)))
 {
 document.getElementById("topbox").innerHTML=player2+" "+"won";
 stop=1;
@@ -188,6 +189,8 @@ if(count==9 && won==0)
     Object.assign(btn.style,styles);
     document.body.appendChild(btn);
     btn.addEventListener('click',start);
-    stop=1;
+      stop=1;
+      won=1;
+      
 }
 }
