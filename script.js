@@ -125,6 +125,7 @@ if( (arr[1]+arr[4]+arr[7]==15)||(arr[0]+arr[1]+arr[2])==15 || (arr[0]+arr[3]+arr
     "background-image":"url(./giphy.gif)",
     
 
+
     
     
   };
